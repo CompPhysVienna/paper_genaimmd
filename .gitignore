@@ -1,3 +1,12 @@
 .vscode
 .env
 __pycache__/
+
+src/samples/*
+!src/samples/README.md
+
+src/trainers/*
+!src/trainers/README.md
+
+src/committor_estimates/*
+!src/committor_estimates/README.md
