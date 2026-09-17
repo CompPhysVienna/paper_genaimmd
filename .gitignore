@@ -10,3 +10,12 @@ src/trainers/*
 
 src/committor_estimates/*
 !src/committor_estimates/README.md
+
+src/generators/*
+!src/generators/README.md
+
+src/wq_tps_generated/*
+!src/wq_tps_generated/README.md
+
+src/wq_tps_normal/*
+!src/wq_tps_normal/README.md
