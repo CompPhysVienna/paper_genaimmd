@@ -19,3 +19,12 @@ src/wq_tps_generated/*
 
 src/wq_tps_normal/*
 !src/wq_tps_normal/README.md
+
+src/polymer_tps_reference/*
+!src/polymer_tps_reference/README.md
+
+src/polymer_tps_normal/*
+!src/polymer_tps_normal/README.md
+
+src/polymer_tps_generated/*
+!src/polymer_tps_generated/README.md
