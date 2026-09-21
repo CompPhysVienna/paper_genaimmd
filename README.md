@@ -15,3 +15,21 @@ From a working Python installation (tested on 3.14), install the required packag
 ```bash
 $ pip install -r requirements.txt
 ```
+
+## Polymer model
+
+This branch contains the code and notebooks for the polymer model. The following list explains the contents of each file in `src/`
+
+- `aimmd.py`: Committor model definition and GenAIMMD training loop
+- `genaimmd_polymer.ipynb`: Running GenAIMMD on the polymer model
+- `generator.py`: Model definition of the conditioned Boltzmann Generator
+- `mcmc.py`: MCMC propagator
+- `md.py`: MD propagator
+- `polymer_estimate_committor.py`: Numerical committor estimation utility
+- `polymer_tps_comparison_generated_paths.py`: Tool that propagates paths from given shooting points
+- `polymer_tps_comparison.ipynb`: Benchmarking plot against standard TPS for the polymer model (Fig. 4 in the main text)
+- `polymer_tps_sample_generator.py`: TPS simulation script
+- `potential.py`: Potential energy and force functions, along with other functions related to the polymer model definition
+- `tps.py`: Transition Path Sampling related functions
+- `transform_layers.py`: Transformation layers for the polymer model to be used in the Boltzmann Generator
+- `util.py`: General utility functions
